@@ -1,0 +1,85 @@
+/*page layouts*/
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+
+html *
+{
+	font-family: "Karla", serif;
+}
+
+.home-page{
+	background-color: #EC7237;
+	height:100%;
+	text-align:center;
+}
+
+.home-page-title-div{
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding-top: 20%;
+	color: white;
+}
+
+.background{
+	background-color: #F9F9F9;
+}
+
+.content{
+	background-color: white;
+	max-width:800px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+section{
+	padding: 40px 0;
+	min-height:100px;	
+}
+
+.line{
+	border-top: 1px solid #E6E6E6;
+	margin: 0px auto;
+}
+
+h2{
+	font-size:2em;
+	font-weight:700;
+	margin-top:0;
+}
+
+h3{
+	margin:0;
+	color:orange;
+}
+
+p{
+	line-height:2em;
+}
+
+.button-orange{
+    background: rgb(223, 117, 20); /* this is an orange */
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 35.5em) {
+	.right-align{
+		text-align:right;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
