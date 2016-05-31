@@ -44,7 +44,9 @@
 	}
 
 	.sponsor-logo{
-		width:60px;
+		opacity:0.8;
+		padding:20px;
+		height:36px;
 	}
 
 	.hero-text-container img{

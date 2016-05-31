@@ -1,9 +1,10 @@
 /*page layouts*/
-@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+/*@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);*/
 
 	html *
 	{
-		font-family: "Karla", serif;
+		/*font-family: "Karla", serif;*/
+		font-family: "Arial", serif;
 	}
 
 	a {
@@ -94,7 +95,7 @@
 	}
 
 	.nav-list li{
-		display:inline;
+		display:inline-block;
 		padding: 0 20px;
 		color:#4A4A4A;
 		font-size:0.9em;
