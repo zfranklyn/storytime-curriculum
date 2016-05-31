@@ -1,0 +1,69 @@
+.page .container{
+	padding-top:40px;
+}
+
+
+/*homepage*/
+
+	.home-page{
+		background-color: white;
+	}
+
+	.home-page .container{
+		padding-top:140px;
+	}
+
+	.home-page-title-div{
+		font-size: 1.5em;
+		margin: 0 auto;
+		padding-top: 20%;
+		color: white;
+	}
+
+	.container{
+		margin: 0 auto;
+	}
+
+	.content{
+		background-color: white;
+		max-width:800px;
+		margin: 0 auto;
+		padding: 0 40px;
+	}
+
+	.tagline{
+		display:block;
+		font-size: 1.5em;
+		color: #4A4A4A;
+	}
+
+	.sponsors{
+		display:block;
+		font-size: 0.8em;
+		color: #777;
+	}
+
+	.sponsor-logo{
+		width:60px;
+	}
+
+	.hero-text-container img{
+		max-width:300px;
+	}
+
+	.phone-carousel {
+		text-align:center;
+		vertical-align: bottom;
+	}
+
+	.phone-carousel img{
+		max-width: 250px;
+	}
+
+/* page-two */
+
+
+/* page-four */
+#storytime_stats{
+	width:250px;
+}
