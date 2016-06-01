@@ -24,6 +24,11 @@
 		margin: 0px auto;
 	}
 
+	.line-white{
+		border-top: 1px solid white;
+		margin: 0px auto;	
+	}
+
 	h2{
 		font-size:2em;
 		font-weight:700;
@@ -79,6 +84,7 @@
 /*navbar*/
 
 	nav{
+		z-index:10;
 		background-color: white;
 		position:fixed;
 		width:100%;
@@ -132,6 +138,10 @@
 		color:white;
 	}
 
+	.txt-orange{
+		color:#EE7E48;
+	}
+
 
 /*responsive*/
 /* sm and below */
@@ -151,6 +161,11 @@
 
 	.max-height{
 		height:100%;
+		overflow:hidden;
+	}
+
+	.half-height{
+		height:50%;
 		overflow:hidden;
 	}
 

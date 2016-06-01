@@ -10,7 +10,7 @@
 	}
 
 	.home-page .container{
-		padding-top:140px;
+		padding-top:120px;
 	}
 
 	.home-page-title-div{
@@ -24,20 +24,15 @@
 		margin: 0 auto;
 	}
 
-	.content{
-		background-color: white;
-		max-width:800px;
-		margin: 0 auto;
-		padding: 0 40px;
-	}
-
 	.tagline{
 		display:block;
 		font-size: 1.5em;
 		color: #4A4A4A;
+		line-height: 1.5em;
 	}
 
 	.sponsors{
+		z-index:0;
 		display:block;
 		font-size: 0.8em;
 		color: #777;
@@ -59,7 +54,7 @@
 	}
 
 	.phone-carousel img{
-		max-width: 250px;
+		max-width: 360px;
 	}
 
 /* page-two */
@@ -68,4 +63,13 @@
 /* page-four */
 #storytime_stats{
 	width:250px;
+}
+
+/*last page*/
+.kids{
+	/*background-color:orange;*/
+	background-image: url("./img/kids-crowd.png");
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: 100% 100%;*/
 }
