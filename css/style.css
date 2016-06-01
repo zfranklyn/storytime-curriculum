@@ -1,10 +1,10 @@
 /*page layouts*/
-@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);
+/*@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700);*/
 
 	html *
 	{
-		font-family: "Karla", serif;
-		/*font-family: "Arial", serif;*/
+		/*font-family: "Karla", serif;*/
+		font-family: "Arial", serif;
 	}
 
 	.pure-img{
@@ -21,6 +21,10 @@
 
 	section{
 		min-height:100px;
+	}
+
+	button{
+		/*font-family:"Karla", serif;*/
 	}
 
 	.line{
@@ -45,7 +49,8 @@
 	}
 
 	p{
-		line-height:1.2em;
+		font-size:0.9em;
+		line-height:1.4em;
 		color: #4A4A4A;
 	}
 
